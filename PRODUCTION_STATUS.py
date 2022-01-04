@@ -60,8 +60,8 @@ param_list=[]
 
 start_time = int(time.time())
 end_time = start_time + 5184000
-for j in range(50):
-    for i in range(0,20000):
+for j in range(5):
+    for i in range(0,10000):
         N=10
         m=6
         cell_id.append(str(random.randint(1,5)))
